@@ -1,0 +1,82 @@
+@media screen and (min-width: 992px) {
+    .nav-background-color {
+        background-color: transparent;
+    }
+
+    .nav-background-color a {
+        color: white;
+    }
+
+    .nav-link:focus,
+    .nav-link:hover,
+    .nav-link.my-border-edite,
+    .nav-link.my-border-edite.active {
+        color: white;
+    }
+
+    .unscrolled-white {
+        --white-unscrolled: rgb(0, 0, 0);
+    }
+
+    .hossam::after {
+        background-color: var(--white-unscrolled, rgb(255, 255, 255));
+    }
+
+    .my-tittle {
+        font-size: 18px;
+        line-height: 25.717px;
+        font-weight: 800;
+    }
+
+    .typed-word,
+    .iam-word,
+    .eraser {
+        font-size: 60px;
+        line-height: 72px;
+    }
+
+    .eraser {
+        font-size: 70px;
+    }
+
+    .about-image {
+        width: 380px;
+    }
+
+    .services-largest-container,
+    .about,
+    .Portfolio-largest-container,
+    .success-biggest-container,
+    .card-biggest-container {
+        width: 950px;
+    }
+
+    .contact-biggest-container,
+    .form-container,
+    .biggest-container {
+        width: 700px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .about-image {
+        width: 420px;
+    }
+
+    .services-largest-container,
+    .about,
+    .Portfolio-largest-container,
+    .success-biggest-container,
+    .card-biggest-container {
+        width: 1150px;
+    }
+
+    .contact-biggest-container,
+    .form-container,
+    .biggest-container {
+        width: 900px;
+    }
+
+}
